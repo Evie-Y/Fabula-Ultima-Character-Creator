@@ -1,0 +1,23 @@
+An Elementalist has learned to channel the souls that flow within the basic elements of creation: Air, Earth, Fire and Water. Some of them develop complex spells to contain the 
+powerful energies of nature; others seek its protection in harmony and communion.
+
+Permanently increase your maximum Mind Points by 5.
+You may perform Rituals whose effects fall within the Ritualism discipline.
+
+Cataclysm
+When you cast a spell with a duration of "Instantaneous", if you have an arcane weapon equipped, you may increase the spell's total MP cost by 10 Mind Points. If
+you do so and the spell deals damage to one or more creatures, it will deal 5 extra damage to each creature for every 10 Mind Points by which you increased its total MP cost.
+
+Elemental Magic
+Each time you acquire this Skill, learn one Elementalist spell.
+
+Magical Artillery
+When you cast an offensive spell, if you have an arcane weapon equipped, you gain a bonus of 2 to your Magic Check.
+
+Ritual Elementalism
+You may perform Rituals whose effects fall within the Elementalism discipline.
+
+Spellblade
+When you cast an offensive spell targeting a single creature, if the spell has a total Mind Point cost of 10 or lower and you have one or more bow, brawling,
+dagger, flail, spear or sword weapons equipped, you may choose one of those weapons. If you do, your Magic Check for the spell will use the chosen weapon's Accuracy Check
+formula.

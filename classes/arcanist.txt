@@ -1,0 +1,21 @@
+Arcanists fall into a trance and project their soul into a physical form.
+These forms are manifestations of ancestral entitnites, sometimes seen as deities.
+
+Permanently increase your maximum Mind Points by 5.
+
+Skills
+Arcane Circle
+Willingly dismiss an Arcanum on your turn during a conflict. If that Arcanum is not summoned during the same turn, and you have an arcane weapon equipped, 
+you may immediately perform a Spell action for free. The spell must cost 5 Mind Points or lower.
+
+Arcane Regeneration
+When you summon an Arcanum, you immediately recover 5 Hit Points.
+
+Bind and Summon 
+You can bind Arcana to your soul and summon them later. You can use an action and spend 40 Mind Points to summon an Arcanum you have bound. 
+
+Emergency Arcanum 
+As long as you are in Crisis, the cost for summoning your Arcana is reduced by 5 Mind Points.
+
+Ritual Arcanism
+You may perform Rituals of the Arcanism discipline, as long as their effects fall within the domains of one or more Arcana you have bound to.

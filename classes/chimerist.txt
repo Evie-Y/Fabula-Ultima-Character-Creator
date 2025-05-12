@@ -1,0 +1,22 @@
+Chimerists gather their power from the souls of monsters and beasts they encounter. By manipulating their inner energy, they can mimic magical abilities of monsters
+and greatly understand feral creatures. They rely on their toughness, physical prowess, and magic.
+
+Permanently increase your maximin Mind Points by 5.
+You may perform Rituals whose effects fall within the Ritualism discipline.
+
+Consume
+After you deal damage to one or more creatures with a spell, if you have an arcane/dagger/flail weapon equipped, you recover 2 Mind Points.
+
+Feral Speech
+You can communicate with beast/monster/plant Species.
+
+Pathogenesis
+When you deal damage to one or more creatures with a Chimerist spell, each of those creatures that share their Species with the creature you learned it from
+is now poisoned.
+
+Ritual Chimerism 
+You may perform Rituals whose effects fall within the Chimerism discipline. 
+
+Spell Mimic
+When you see a beast/monster/plant Species cast a spell, you may immediately choose to learn that spell as a Chimerist spell of your own: if you do, record
+the Species of the creature you learned it from.
