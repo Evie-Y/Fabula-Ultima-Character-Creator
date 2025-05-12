@@ -2,6 +2,14 @@ import pygame
 import sys 
 
 def main():
+pygame.init()
+
+pygame.display.set_caption("Fabula Ultima Character Creator")
+
+info = pygame.display.Info()
+s_width = info.current_w
+s_height = info.current_h
+screen = pygame.display.set_mode((s_width, s_height))
 
 if __name__ == "__main__":
     main()
