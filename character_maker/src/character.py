@@ -32,7 +32,6 @@ class Available_Classes():
         arcanist.add.button("Add", Universal_Buttons.add)
         arcanist.add.button("Back", Universal_Buttons.back)
         arcanist.mainloop(screen)
-        pass
 
     def chimerist_menu(s_width, s_height, screen):  
         chimerist = pygame_menu.Menu('Chimerist',s_width,s_height,theme=pygame_menu.themes.THEME_DARK)
@@ -58,7 +57,6 @@ class Available_Classes():
         chimerist.add.button("Add", Universal_Buttons.add)
         chimerist.add.button("Back", Universal_Buttons.back)
         chimerist.mainloop(screen)
-        pass
 
     def darkblade_menu(s_width, s_height, screen):  
         darkblade = pygame_menu.Menu('Arcanist',s_width,s_height,theme=pygame_menu.themes.THEME_DARK)
@@ -210,12 +208,10 @@ class Available_Classes():
         classes.add.button("Fury", Available_Classes.fury_menu, s_width, s_height, screen)
         classes.add.button("Guardian", Available_Classes.guardian_menu, s_width, s_height, screen)
         classes.mainloop(screen)
-        pass
 
 class Available_Items():
     def inventory(value, item):
         item = value
-        pass
 
     def shop_menu(s_width, s_height, screen):
         #buttons that link to .txt classes
@@ -225,7 +221,6 @@ class Available_Items():
         shop.add.button("Add", Universal_Buttons.add)
         shop.add.button("Back", Universal_Buttons.back)
         shop.mainloop(screen)
-        pass
     
 class Bond_Types():
     def admiration():
@@ -269,18 +264,15 @@ class Bond_Types():
         bond.add.button("Add", Universal_Buttons.add)
         bond.add.button("Back", Universal_Buttons.back)
         bond.mainloop(screen)
-        pass
 
 class Universal_Buttons():
     def back():
         pygame_menu.events.CLOSE
-        pass
     def add():
         pygame_menu.events.BACK
 
 def quit_menu(running, screen):
     running == False
-    pass
 
 def main():
     pygame.init()
