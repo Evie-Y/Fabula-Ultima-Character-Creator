@@ -1,6 +1,7 @@
 # Fabula-Ultima-Character-Creator
 My first repository on GitHub. A simple character creator for the TTJRPG *Fabula Ultima.*
-
+  https://github.com/Evie-Y/Fabula-Ultima-Character-Creator 
+Explanation Video
 ## Description
 I intend to make a character creator based on the TTJRPG, *Fabula Ultima*. 
 It will help with making more RPG media accessible and beginner-friendly.
