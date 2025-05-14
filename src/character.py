@@ -12,22 +12,34 @@ def draw_text(text, font, text_color, x, y,screen):
     img = font.render(text, False, text_color)
     screen.blit(img, (x, y))
 
-class Menus():
-    def classes_menu(s_width, s_height):
-        pygame_menu.Menu('Classes',s_width,s_height,theme=pygame_menu.themes.THEME_DARK)
+class Available_Classes():
+    def classes_menu(s_width, s_height, screen):
+        #buttons that link to .txt classes
+        print("1")
+        classes = pygame_menu.Menu('Classes',s_width,s_height,theme=pygame_menu.themes.THEME_DARK)
+        print("2")
+        classes.add.button("Arcanist", Available_Classes.arcanist_menu, s_width, s_height, screen)
+        classes.mainloop(screen)
         pass
 
-    def shop_menu(s_width, s_height):
-        pygame_menu.Menu('Shop',s_width,s_height,theme=pygame_menu.themes.THEME_DARK)
+    def arcanist_menu(s_width, s_height, screen):   
         pass
 
-    def bonds_menu(s_width, s_height):
+class Available_Items():
+    def shop_menu(s_width, s_height, screen):
+        #buttons that link to .txt classes
+        shop = pygame_menu.Menu('Shop',s_width,s_height,theme=pygame_menu.themes.THEME_DARK)
+        pass
+
+class Bond_Types():
+    def bonds_menu(s_width, s_height, screen):
+        #buttons that link to different bonds
         pygame_menu.Menu('Bonds',s_width,s_height,theme=pygame_menu.themes.THEME_DARK)
         pass
 
-    def quit_menu(running):
-        running == False
-        pass
+def quit_menu(running, screen):
+    running == False
+    pass
 
 def main():
     pygame.init()
@@ -38,25 +50,15 @@ def main():
     s_width = info.current_w
     s_height = info.current_h
     screen = pygame.display.set_mode((s_width, s_height))
+    running = True
 #render
-    background = (255, 230, 162)
-    color_light = (215, 240, 255)
-    color_dark = (160, 222, 255)
-
-    screen.fill((background))
-    pygame.draw.rect(screen, color_dark, [590, 315, 80 , 30])
-    text_font = pygame.font.SysFont("nirmalatext", 25)
-    draw_text("load", text_font, (0,0,0), 605, 312, screen)
-
     mainmenu = pygame_menu.Menu('',s_width,s_height,theme=pygame_menu.themes.THEME_DARK)
     mainmenu.add.text_input('Name: ', default='Avatar')
-    mainmenu.add.button('Classes', Menus.classes_menu)
-    mainmenu.add.button('Shop', Menus.shop_menu)
-    mainmenu.add.button('Bonds', Menus.bonds_menu)
-    mainmenu.add.button('Quit', Menus.quit_menu)
-
+    mainmenu.add.button('Classes', Available_Classes.classes_menu, s_width, s_height, screen)
+    mainmenu.add.button('Shop', Available_Items.shop_menu, s_width, s_height, screen)
+    mainmenu.add.button('Bonds', Bond_Types.bonds_menu, s_width, s_height, screen)
+    mainmenu.add.button('Quit', quit_menu, running, screen)
 #game loop
-    running = True
     while running == True:
         events = pygame.event.get()
         for event in events:
@@ -66,7 +68,7 @@ def main():
         if mainmenu.is_enabled():
             mainmenu.update(events)
             mainmenu.draw(screen)
-        
+
         pygame.display.update()     
         pygame.display.flip()
     pygame.quit()
