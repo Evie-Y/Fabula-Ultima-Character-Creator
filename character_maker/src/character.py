@@ -114,19 +114,28 @@ class Available_Classes():
 
     def entropist_menu(s_width, s_height, screen):  
         entropist = pygame_menu.Menu('Entropist',s_width,s_height,theme=pygame_menu.themes.THEME_DARK)
-        entropist.add.label("", max_char=-1)
-        entropist.add.label("", max_char=-1)
-        entropist.add.label("", max_char=-1)
-        entropist.add.label("", max_char=-1)
-        entropist.add.label("", max_char=-1)
-        entropist.add.label("", max_char=-1)
-        entropist.add.label("", max_char=-1)
-        entropist.add.label("", max_char=-1)
-        entropist.add.label("", max_char=-1)
-        entropist.add.label("", max_char=-1)
-        entropist.add.label("", max_char=-1)
-        entropist.add.label("", max_char=-1)
-        entropist.add.label("", max_char=-1)
+        entropist.add.label("High above the stars, where their lights do not shine, lies a bottomless void where life and souls wither and " \
+        "transform in unfathomable ways. This realm is a non-reality, an endless expanse of chaos impervious to the laws of time, space, "
+        "and probability. Entropists refer to this realm as the Cosmos, the Heavens, or quite simply as Lady Luck: they are among the few " \
+        "gifted with the ability to channel its reality-bending energies.", max_char=-1)
+        entropist.add.label("Permanently increase your maximum Mind Points by 5.", max_char=-1)
+        entropist.add.label("You may perform Rituals whose effects fall within the Ritualism discipline.", max_char=-1)
+        entropist.add.label("Absorb Map", max_char=-1)
+        entropist.add.label("After you suffer damage, you may immediately recover 2 Mind Points.", max_char=-1)
+        entropist.add.label("Entropic Magic", max_char=-1)
+        entropist.add.label("Each time you acquire this Skill, learn one Entropist spell.", max_char=-1)
+        entropist.add.label("Lucky Seven", max_char=-1)
+        entropist.add.label("You have a lucky number; at the beginning of each session, that number is 7. Once per scene after you perform a Check, " \
+        "you may replace the value shown on one of the dice you rolled with your lucky number (even if this would give an impossible Result, " \
+        "such as a value of 7 on a d6). If you do, the replaced value becomes your new lucky number.", max_char=-1)
+        entropist.add.label("Ritual Entropism", max_char=-1)
+        entropist.add.label("You may perform Rituals whose effects fall within the Entropism discipline.", max_char=-1)
+        entropist.add.label("Stolen Time", max_char=-1)
+        entropist.add.label("During a conflict, you may use an action to interfere with the flow of time by spending up to 5 Mind Points. " \
+        "For every 5 Mind Points you spend this way, choose one option: one creature you can see suffers slow; or one creature you can see " \
+        "recovers from slow; or one creature you can see may immediately perform the Equipment action for free; or choose one ally you can " \
+        "see who has yet to take a turn during this round: that ally may take their turn immediately after yours during this round. " \
+        "Each option can only be chosen once per use of this Skill.", max_char=-1)
         entropist.add.button("Add", Universal_Buttons.add)
         entropist.add.button("Back", Universal_Buttons.back)
         entropist.mainloop(screen)

@@ -32,8 +32,7 @@ a drop-down of the current character.
 
 Minimal Viable Outcome:
 - A window that has the tabs Class, Stats, and Bonds. The different Classes, 
-Bonds and Stats can be dragged to the 'character' window. Bonds can be edited by the
-user afterward.
+Bonds and Stats are listed.
 
 ## Milestones
 
