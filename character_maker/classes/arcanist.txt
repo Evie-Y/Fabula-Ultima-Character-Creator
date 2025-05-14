@@ -11,7 +11,7 @@ you may immediately perform a Spell action for free. The spell must cost 5 Mind 
 Arcane Regeneration
 When you summon an Arcanum, you immediately recover 5 Hit Points.
 
-Bind and Summon 
+Bind and Summon
 You can bind Arcana to your soul and summon them later. You can use an action and spend 40 Mind Points to summon an Arcanum you have bound. 
 
 Emergency Arcanum 
