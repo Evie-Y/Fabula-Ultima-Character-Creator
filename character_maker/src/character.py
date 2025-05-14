@@ -142,7 +142,28 @@ class Available_Classes():
 
     def fury_menu(s_width, s_height, screen):  
         fury = pygame_menu.Menu('Fury',s_width,s_height,theme=pygame_menu.themes.THEME_DARK)
-        fury.add.label("", max_char=-1)
+        fury.add.label("Furies never know when to quit. In battle and life they are energetic, determined and often restless. " \
+        "Whatever ideals or desires drive their actions, they will stop at nothing and risk everything in order to achieve them.", max_char=-1)
+        fury.add.label("Permanently increase your maximum Hit Points by 5.", max_char=-1)
+        fury.add.label("Gain the ability to equip martial melee weapons and martial armor.", max_char=-1)
+        fury.add.label("Adrenaline", max_char=-1)
+        fury.add.label("As long as you are in Crisis, you deal 2 extra damage (be it with attacks, spells, Arcana, items or any other " \
+        "method).", max_char=-1)
+        fury.add.label("Frenzy", max_char=-1)
+        fury.add.label("Your Accuracy Checks with brawling, dagger, flail and thrown weapons trigger a critical success if both dice show " \
+        "the same number (and the Check is not a fumble).", max_char=-1)
+        fury.add.label("Indomitable SPirit", max_char=-1)
+        fury.add.label("When you spend one or more Fabula Points, you get an additional benefit — choose one option: you recover 5 Hit Points; "
+        "or you recover 5 Mind Points; or you recover from a single status effect of your choice.", max_char=-1)
+        fury.add.label("Provoke", max_char=-1)
+        fury.add.label("You may use an action and spend 5 Mind Points to perform an Opposed Check against a creature you can see — " \
+        "describe how you taunt them! If you succeed, the target suffers enraged and is compelled to focus their attention on you "
+        "(their attacks and offensive spells must include you among the targets if possible). This compulsion ends if you fall unconscious "
+        "or leave the scene, if the creature is no longer enraged, or if they are successfully provoked by someone else.", max_char=-1)
+        fury.add.label("Withstand", max_char=-1)
+        fury.add.label("When you perform the Guard action, if you choose not to provide cover to another creature, you recover " \
+        "Hit Points equal to 1 x the highest strength among your Bond and choose Might or Willpower: you treat the chosen Attribute as " \
+        "being one die size higher (up to a maximum of d12) until the end of your next turn.", max_char=-1)
         fury.add.button("Add", Universal_Buttons.add)
         fury.add.button("Back", Universal_Buttons.back)
         fury.mainloop(screen) 
