@@ -2,13 +2,6 @@ import pygame
 import sys 
 import pygame_menu
 
-#create a menu screen
-#create the level - current avatar w/ buttons to class, items, bond
-#create buttons in level w/ more info in indivuals - button to add
-#add buttons to naviagte
-#allow text features on avatar for bonds
-
-
 class Available_Classes():
     def arcanist_menu(s_width, s_height, screen):  
         arcanist = pygame_menu.Menu('Arcanist',s_width,s_height,theme=pygame_menu.themes.THEME_DARK)
