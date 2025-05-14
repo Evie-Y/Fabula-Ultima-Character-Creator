@@ -1,7 +1,12 @@
 # Fabula-Ultima-Character-Creator
+
+## Demo
+Demo Video: <https://youtu.be/Uh0QrUHDprA >
+
+## GitHub Repository
 My first repository on GitHub. A simple character creator for the TTJRPG *Fabula Ultima.*
-  https://github.com/Evie-Y/Fabula-Ultima-Character-Creator 
-Explanation Video
+GitHub Repo: <https://github.com/Evie-Y/Fabula-Ultima-Character-Creator >
+
 ## Description
 I intend to make a character creator based on the TTJRPG, *Fabula Ultima*. 
 It will help with making more RPG media accessible and beginner-friendly.
@@ -36,7 +41,6 @@ Minimal Viable Outcome:
 Bonds and Stats are listed.
 
 ## Milestones
-
 - Week 1
   1. Input all the *Fabula Ultima* classes into .txt files in the repository.
   2. Create a function where the classes can be called upon and added/updated characters.
@@ -51,3 +55,4 @@ Bonds and Stats are listed.
   Includes guides.
   2. Create a function where a bond can be called upon. Bond in character module 
   will be editable via text box.
+
